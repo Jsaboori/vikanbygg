@@ -8,11 +8,15 @@ body {
 }
 
 header {
-    background: #333;
+    background-color: rgba(185, 122, 87, 0.95); /* warm wood tone */
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    background-repeat: repeat;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 nav a {
     color: white;
