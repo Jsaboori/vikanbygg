@@ -61,6 +61,13 @@ footer {
     margin-top: 1rem;
 }
 
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
 .gallery-grid img {
     width: 100%;
     border-radius: 8px;
@@ -71,4 +78,5 @@ footer {
 .gallery-grid img:hover {
     transform: scale(1.02);
 }
+
 
